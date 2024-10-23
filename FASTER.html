@@ -1,0 +1,278 @@
+<IDOCTYPE html>
+    <html>
+    <link href="VoorbeeldCSS" type="text/css" rel="stylesheet"/> 
+    <head class="body.VoorbeeldCSS"> <title> This is the title</title>
+        <link href="VoorbeeldCSS" type="text/css" rel="stylesheet"/>
+        <style> 
+            footer{
+                background-color:magenta;
+                color:brown;
+            }
+
+
+
+            .xyz{
+                border: 20px outset black;
+                background-color:aqua;
+                text-align:center;
+
+            }
+            p.orange{
+                color:orange;
+            }
+            p#winter{
+                color:blue;
+            }
+
+
+            
+        </style>
+       
+
+    
+    </head>
+        <head>
+            <h1> hello world</h1>
+            <h2> hello world</h2>
+            <h3> hello world</h3>
+        </head>
+        
+        
+
+            <body>
+                
+                <p style="color:orange"> Het is herfst</p>
+                <p class="p#winter">Het is winter</p>
+                <p id="p.orange">Het is lente</p>
+
+                <p class="xyz">Het is mooi weer</p>
+                
+                
+                
+                <br><p> Dit is een tekst met een zineinde  </p>
+                en veel spaties en een horizontale lijn.
+
+                dit is een tekst met veel spaties.
+
+                <div class="voorbeeldCSS">
+                    <p>Bruh</p>
+                </div>
+                
+
+                <p> 
+                    <b> deze tekst is vet</b>
+                    <i> deze tekst is schuin gedrukt</i>
+                    <u> deze tekst is onderlijnd</u>
+                    <b><i><u> deze tekst is een combinatie van de drie </u></i></b>
+                </p>
+                <h1> Dit is de grootste titel</h1>
+                <h2> Dit is ook een titel</h2>
+                <h3 style="text-align:left"> wow</h3>
+
+                <strong> deze tekst is ook vet</strong>
+                <em> Deze tekst is ook schuin </em>
+                <a href = "TEST.html" target = "_blank">klik hier</a> om een nieuw bestand te openen <br>
+
+                <a href = "Naamloos.jpg" target="_blank">klink hier</a> voor een geweldig coole hond. <br>
+                
+                <a href = "mailto:antony.coppens@thomasmore.be">antony Coppens</a>hier email<br>
+                <a href = "http://www.thomasmore.be">klik hier</a> om naar de webstite.
+
+                <a href = "#leven">Leven</a>
+                <!--verplaats a tag naar boven om navigatie te testen.-->
+
+                <h4>
+                    <a id ="Leven">Leven</a>
+                </h4>
+            
+
+                <!--AFBEELDING-->
+
+                <img src = "Doggo.jpg" alt = "mini hond" heigt = "25%" width = "25%">
+                <!-- ../../-->
+                hi
+
+                <!--per map die naar buiten gaat gebruik je 1 keer ../ 
+                2 mappen terug = ../../ Maar stel dat je mappen dieper gaat dan waar
+                jouw html bestand staat dan geef je mapnamen mee-->
+
+                <!--audio-->
+                <audio controls>
+                    <source sr="blaf.mp3" type = "audio/mp3">
+
+                </audio>
+
+                <video height ="25%" width="25%" controls>
+                    <source src = "dogvid.mp4" type="dogvid/mp4">
+                </video>
+
+             <!--Lijsten: 2 mogelijkheden.
+             1. Niet georderd
+             2. Geordered-->
+
+             <ul class="vorrbeeld2">
+                <li> eerst item</li>
+                <li> tweede item</li>
+             </ul>
+
+             <ol>
+                <li> eerste item</li>
+                <li> tweede item</li>
+                <li> derde item</li>
+             </ol>
+
+             <!-- ol mogelijkheden (geordend): 1 a A i I -->
+              <ol type="I">
+                <li> eerste item</li>
+                <li> tweede item</li>
+                <li> derde item</li>
+
+              </ol>
+             
+              <!--Mogelijkheden UL: disc square circle-->
+              <ul type="square">
+                <li> eerste item</li>
+                <li> tweede item</li>
+                <li> derde item</li>
+
+              </ul>
+               
+              <!-- Geneste lijsten-->
+               <ul type="circle">
+                <li>Itmem 1 </li>
+                <ul type="disc">
+                    <li> 1.1</li>
+                    <li> 1.2</li>
+                </ul> 
+                </ul>
+
+                <!--tabellen: th table header (title) |re = rij in de tabel | td = kolom in tabel-->
+                <tables border="1">
+                    <tr>
+                        <td> 1e rij 1e kolom</td>
+                        <td> 1e rij 2e kolom</td>
+                    </tr>
+                    <!--Rij 2-->
+                    <tr>
+                        <td>2e rij 1e kolom</td>
+                    </tr>
+                </tables>
+                <br>
+                <tables border="2">
+                    <tr>
+                        <td>Antony</td>
+                        <td>Antwerpen</td>
+                    </tr>
+                </tables>
+
+                <!--Cellpadding en cellspacing-->
+                <table border="1" cellpadding="10" >
+                    <tr>
+                        <td>Geen ruimte</td>
+                    </tr>
+                </table>
+
+                <!--HET SAMENVOEGEN VAN RIJEN; LES 2-->
+
+
+                <table border="1"> 
+                    <tr> 
+                        <td> 1ste Rije, 1ste kolom</td>
+                        <td rowspan="2">2de kolom</td>
+                    </tr>
+                    <tr> 
+                        <td> 2de rij, eerste kolom</td>
+                    </tr>
+
+
+
+
+                </table> 
+                    
+                <br> <table border ="1">
+                    <tr> 
+                        <td> 1ste rij, 1ste kolom</td>
+                        <td> 1ste rij, 2de kolom</td>
+                    </tr>
+                    <tr> 
+                        <td colespan="2"> 2de rij </td>
+                    </tr>
+                </table>
+
+
+
+                <!--CONTAINER ELEMENTEN-->
+                <br><br>
+                <div style ="background-color:coral; color:blue"> 
+                    <h2>Londen</h2>
+                    <p> Londen is de hoofdstad van Engeland en de drukstbevolkste stad van de UK.
+                        Heeft ongeveer 12 miljoen inwoners.
+                    </p>
+                </div>
+
+                <!--IN LINE ELEMENTEN: Geen nieuwe lijn-->
+                <p>De gekleurde tekst is een voorbeeld van de <span style="color:red">SPAN</span> tag.</p>
+
+                <!--Iframe; webpagina op een webpagina-->
+                <Iframe src ="http://www.windows.93.net" style="border:none;"></Iframe>
+
+                <!--FORMULIEREN: oftewel forms-->
+                <form action="" method="post">
+                    <input type="text" name="Name" size="40"><br>
+                    <input type="password" name="Password"><br>
+                    <input type="submit" value="subit">
+                </form>
+
+                <!--Keuzerondjes-->
+
+                <form>
+                    <input type="radio" name="Keuzes" value="Keuze1">Keuze 1<br>
+                    <input type="radio" name="Keuzes" value="Keuze2">Keuze 2<br>
+                    <input type="radio" name="Keuzes" value="Keuze3" checked>Keuze 3<br>
+
+                </form>
+
+                <form> 
+                    tekstveld van 1 rij: <input type="text" name="tekst" size="20"><br>
+                    textarea: <textarea rows ="3" cols="30" name="TXTAR">Default gateway</textarea>
+                    vinkjes: <br><input type="checkbox" name="Check" value="c1" checked> Keuze 1
+                                 <br><input type="checkbox" name="Check" value="c1" checked> Keuze 1
+                                 Dropdownlist:
+                                 <select name="dd1">
+                                     <option>Optie 1</option>
+                                     <option>Optie 2</option>
+                                     <option>Optie 3</option>
+                                 </select>
+                 
+                                 <br>
+                                 <button type="button" onlick="alert('hello world!')">click me</button>
+                    
+
+               
+                
+                
+                
+                </form>
+
+                
+
+                <!--ANDERE CONTAINERELEMENTEN-->
+                <br><h1>Heading X</h1>
+                <p> Dit is gewoon tekst</p>
+                
+                <footer>
+                    <p>Auteur: James Verlindo</p>
+                    <p><a href="mailto;anthony.coppens@thomasmore.be">MAILNAARANTHONY
+                    </a></p>
+                </footer>
+
+
+                
+
+
+            
+            </body>
+    
+    
+    
+    </html>
